@@ -67,6 +67,7 @@ function isInArray(string, array) {
   }
   return array.indexOf(cachePath) > -1;
 }
+
 self.addEventListener('fetch', function (event) {
 
   var url = 'https://pwagram-99adf.firebaseio.com/posts';
